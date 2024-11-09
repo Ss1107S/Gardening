@@ -1,0 +1,49 @@
+.list li{
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.list li:not(.logo){
+    padding: 0 2em;
+    background-color: beige;
+}
+.list li:not(.logo):hover{
+    background-color: yellow;
+}
+
+
+header .list {
+    background-color: rgb(231, 251, 190);
+    padding: 0 2em;
+    height: 50px;
+
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+header .logo{
+    width: 40px;
+    margin-left: 0;
+}
+
+img, a{
+    vertical-align: middle;
+}
+a {
+    line-height: 50px;
+    text-decoration: none;
+    color:green;
+}
+
+header .right{
+    float: right;
+}
+
+
+/*alias*/
