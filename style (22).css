@@ -1,0 +1,70 @@
+body{
+    background-color:rgb(251, 238, 118);
+}
+
+.list li{
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.list li:not(.logo){
+    padding: 0 2em;
+    background-color: beige;
+}
+.list li:not(.logo):hover{
+    background-color: yellow;
+}
+
+
+header .list {
+    background-color: yellowgreen;
+    padding: 0 2em;
+    height: 100px;
+
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+header .logo{
+    width: 40px;
+    margin-left: 0;
+}
+
+img, a{
+    vertical-align:auto;
+}
+
+a {
+    line-height: 30px;
+    text-decoration: none;
+    color:green;
+}
+
+header .right{
+    float: right;
+}
+
+button{
+    color: green;
+    border: solid 5px green;
+    border-radius: 15%;
+}
+
+button h3{
+    display: flex;
+    flex: 0 1 auto;
+    align-items: center;
+}
+
+.botton{
+    display: flex;
+    justify-content: space-between;
+
+}
